@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 # Reading CSV file
-df = pd.read_csv("Sales_Data_10k.csv"))
+df = pd.read_csv("Sales_Data_10k.csv")
 # Page configuration
 st.set_page_config(
     page_title="Ekart Sales Dashboard",
