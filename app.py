@@ -66,7 +66,7 @@ st.divider()
 total_sales = df["Net_Sales"].sum()
 
 # Format to 2 decimal places -> "$15.31M"
-formatted_sales = f"${total_sales / 1_000_000:.2f}M"
+formatted_sales = f"{total_sales / 1_000_000:.2f}M"
 
 total_profit = df["Profit"].sum()
 formatted_total_profit = f"${total_profit / 1_000_000:.2f}M"
